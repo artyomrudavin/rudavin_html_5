@@ -1,0 +1,209 @@
+body {
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 36px;
+	background: linear-gradient(to top, #074f8f, #3e7aa8);
+	font-size: 14px;
+	
+}
+
+nav {
+	width: 100%;
+	height: 36px;
+	background: url(../img/pattern.png) 0 0 repeat-x, url(../img/noise.png) 0 0 repeat-x;
+}
+
+.feedback_registration {
+	float: right;
+}
+
+.feedback_registration li {
+	float: left;
+}
+
+.menu {
+	float: right;
+	padding-right: 10px;
+	border-right: 1px solid #56a2dc;
+}
+
+.menu li {
+	float: left;
+}
+
+nav a {
+	line-height: 36px;
+	text-decoration: none;
+}
+
+.menu a {
+	display: block;
+	height: 36px;
+	padding: 0 10px;
+	color: #60B5ED;
+}
+
+.menu a:hover {
+	background: #4eabda;
+	color: #fff;
+}
+
+.feedback_registration li,
+.feedback_registration a {
+	color: #FEFEFE;
+}
+
+.feedback a {
+	display: block;
+	height: 36px;
+	padding: 0 15px 0 45px;
+	margin: 0 5px;
+	background: url(../img/flag.png) 15px 50% no-repeat;
+}
+
+.feedback a:hover {
+	background: url(../img/flag.png) 15px 50% no-repeat, linear-gradient(to top, #2e7ac4, #50afdc);
+	box-shadow: inset 0px 0px 0px 1px #51a0da;
+}
+
+.registration a {
+	display: block;
+	height: 36px;
+	padding: 0 15px;
+	margin: 0 20px 0 5px;
+}
+
+.registration a:hover {
+	background: linear-gradient(to top, #2e7ac4, #50afdc);
+	box-shadow: inset 0px 0px 0px 1px #51a0da;
+}
+
+.entrar, .cadastre {
+	text-decoration: underline;
+}
+
+/*MAIN*/
+
+main {
+	display: flex;
+	width: 100%;
+	height: 1080px;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	background: url(../img/background.jpg) 50% top no-repeat;
+	background-size: cover;
+}
+
+.wrapper {
+	width: 560px;
+	height: 613px;
+}
+
+.wrapper1 {
+	width: 100%;
+	height: 62px;
+	margin-bottom: 2px;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.wrapper2 {
+	width: 100%;
+	height: 549px;
+	background: rgba(0, 0, 0, 0.7);
+	text-align: center;
+}
+
+.wrapper1 p {
+	line-height: 62px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+}
+
+.fb {
+	display: inline-block;
+	margin-top: 35px;
+	margin-bottom: 32px;
+}
+
+.ou {
+	margin-bottom: 30px;
+	background: url(../img/line.png) 50% 50% no-repeat;
+	color: #999;
+	font-size: 14px;
+}
+
+.privacy {
+	color: #ccc;
+	font-size: 11px;
+}
+
+input {
+	width: 200px;
+	height: 35px;
+	padding: 0 19px;
+	margin-bottom: 15px;
+	border: none;
+	border-bottom: 1px solid #484847;
+	background: linear-gradient(to top, #100f0f, #111111);
+	color: #fff;
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+	font-size: 14px;
+}
+
+input:focus {
+	border-bottom: 1px solid #689bcc;
+	box-shadow: 0 0 15px #689bcc;
+	background: linear-gradient(to top, #1b4d7f, #1b5286);
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"] + label {
+	line-height: 14px;
+	color: #cccccc;
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.checkbox, .buttons {
+	margin-bottom: 20px;
+}
+
+input[type="checkbox"] + label::before {
+	display: inline-block;
+	content: "";
+	height: 13px;
+	width: 13px;
+	margin: 0 5px 0 0;
+	background-image: url(../img/check.png);
+	background-repeat: no-repeat;
+}
+
+input[type="checkbox"]:checked + label::before {
+	background-image: url(../img/checked.png);
+	background-repeat: no-repeat;
+}
+
+input::-webkit-input-placeholder, label {
+	color: #cccccc;
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+	font-size: 14px;
+} 
+
+button[type="submit"] {
+	width: 151px;
+	height: 37px;
+	border: none;
+	background: url(../img/button.png);
+	color: #fff;
+	font-family: 'Helvetica Neue', Tahoma, sans-serif;
+	font-size: 11px;
+}

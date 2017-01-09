@@ -1,0 +1,93 @@
+table {
+	width: 500px;
+	height: 540px;
+	border-collapse: collapse;
+}
+
+/*BORDERS-START*/
+
+td {
+	border: 10px solid #000;
+}
+
+td:first-child {
+	border-left: none;
+}
+
+td:last-child {
+	border-right: none;
+}
+
+.first td {
+	border-top: none;
+}
+
+.fifth td:first-child, .sixth td:first-child, .seventh td {
+	border-bottom: none;
+}
+
+/*BORDERS-END*/
+
+/*SIZING-START*/
+
+.seventh td {
+	height: 31px;
+}
+
+.sixth td:last-child {
+	height: 30px;
+}
+
+.fifth td:nth-child(2) {
+	height: 58px;
+	width: 62px;
+}
+
+.fifth td:nth-child(3) {
+	width: 62px;
+}
+
+.fourth td:nth-child(2) {
+	height: 58px;
+}
+
+.third td:nth-child(2) {
+	height: 130px;
+	width: 75px;
+}
+
+.third td:last-child {
+	width: 75px;
+}
+
+.second td:first-child {
+	height: 128px;
+}
+
+/*SIZING-END*/
+
+/*COLORS-START*/
+
+.first td:last-child,
+.second td:last-child,
+.fifth td:first-child {
+	background-color: #ffee5d;
+}
+
+.second td:nth-child(2) {
+	background-color: #ff5933;
+}
+
+.fourth td:first-child,
+.fourth td:nth-child(2),
+.fifth td:nth-child(2),
+.fifth td:nth-child(3),
+.sixth td:last-child {
+	background-color: #262928;
+}
+
+.fifth td:last-child {
+	background-color: #0a4785;
+}
+
+/*COLORS-END*/
